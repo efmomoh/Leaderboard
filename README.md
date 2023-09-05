@@ -118,13 +118,13 @@ You are welcome, and click <a href="https://github.com/efmomoh/leaderboard/issue
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project please give it a star and follow me on GitHub LinkedIn and Twitter
-, you are also welcome with any suggestions🙏
+, you are also welcome to any suggestions🙏
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my Microverse codding, partners, morning sessions and my standup teams for helping and encouraging me to do this project
+I would like to thank my Microverse codding, partners, morning sessions, and my standup teams for helping and encouraging me to do this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

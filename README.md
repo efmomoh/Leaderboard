@@ -1,4 +1,3 @@
-           
                      ###LEADERBOARD APP
 
 # 📗 Table of Contents
@@ -13,7 +12,7 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-<!-- - [🚀 Live Demo ](#-live-demo-) -->
+  <!-- - [🚀 Live Demo ](#-live-demo-) -->
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -51,7 +50,6 @@
 
 ### Prerequisites
 
-
 1. Computer
 2. Internet
 3. Web Browser
@@ -72,7 +70,7 @@ Clone this repository to your desired folder Enter the following commands in the
 Install this project with the following command in the terminal:
 
 ```sh
- npm install 
+ npm install
 
 ```
 
@@ -90,6 +88,7 @@ To run the project,
    1. npx hint.
    2. npx stylelint "**/*.{css,scss}"
 ```
+
 <!-- ## 🚀 Live Demo <a name="live-demo"></a>
 
  - [Live Demo Link](https://efmomoh.github.io/leaderboard/) -->
@@ -105,6 +104,7 @@ To run the project,
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
+
 - basic page structure.
 - send and receive data from API.
 - final touches.
@@ -128,9 +128,8 @@ I would like to thank my Microverse codding, partners, morning sessions, and my 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

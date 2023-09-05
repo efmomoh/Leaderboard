@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaderboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  <script defer src="runtime.bundle.js"></script><script defer src="index.bundle.js"></script><script defer src="print.bundle.js"></script></head>
+  <body>
+    <h1 class="h1">Leaderboard</h1>
+
+    <section class="container">
+      <section class="contents-wrapper">
+        <main class="main-wrapper">
+          <div class="refresh-wrapper">
+            <h2 class="h2">Recent Scores</h2>
+            <button type="submit" class="refres-btn">Refresh</button>
+          </div>
+          <ul class="board-list">
+            <li class="scores-list">Barcelona: 10</li>
+            <li class="scores-list">Real Madrid: 2</li>
+            <li class="scores-list">BYC: 6</li>
+            <li class="scores-list">Liscer FC: 4</li>
+            <li class="scores-list">Manchester Unted: 0</li>
+          </ul>
+        </main>
+
+        <section class="add-scores">
+          <h3 class="h3">Add Your Scores</h3>
+          <form action="#" class="form">
+            <input type="text" class="name-input" placeholder="Your Name" />
+            <input type="text" class="scores-input" placeholder="Your Score" />
+            <button type="submit" id="submit-button">Submit</button>
+          </form>
+        </section>
+      </section>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>

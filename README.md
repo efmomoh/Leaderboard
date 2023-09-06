@@ -87,6 +87,8 @@ To run the project,
 ```sh
    1. npx hint.
    2. npx stylelint "**/*.{css,scss}"
+   3. npm run build
+   4. npm test
 ```
 
 <!-- ## 🚀 Live Demo <a name="live-demo"></a>
@@ -108,6 +110,8 @@ To run the project,
 - basic page structure.
 - send and receive data from API.
 - final touches.
+- ES6 syntaxes
+- Use of Async and await 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

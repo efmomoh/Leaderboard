@@ -20,23 +20,18 @@
         <main class="main-wrapper">
           <div class="refresh-wrapper">
             <h2 class="h2">Recent Scores</h2>
-            <button type="submit" class="refres-btn">Refresh</button>
+            <button type="submit" class="refresh-btn">Refresh</button>
           </div>
-          <ul class="board-list">
-            <li class="scores-list">Barcelona: 10</li>
-            <li class="scores-list">Real Madrid: 2</li>
-            <li class="scores-list">BYC: 6</li>
-            <li class="scores-list">Liscer FC: 4</li>
-            <li class="scores-list">Manchester Unted: 0</li>
-          </ul>
+          <ul class="board-list"></ul>
         </main>
 
         <section class="add-scores">
           <h3 class="h3">Add Your Scores</h3>
           <form action="#" class="form">
-            <input type="text" class="name-input" placeholder="Your Name" />
-            <input type="text" class="scores-input" placeholder="Your Score" />
+            <input type="text" class="name-input" maxlength="30" placeholder="Your Name" />
+            <input type="text" class="scores-input" maxlength="30" placeholder="Your Score" />
             <button type="submit" id="submit-button">Submit</button>
+            <span class="error-container"></span>
           </form>
         </section>
       </section>

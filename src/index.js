@@ -1,6 +1,6 @@
 import './style.css';
 
-let gameId = ''; // Store the ID of the game created by you.
+let gameId; // Store the ID of the game created by you.
 
 // Function to display an error message in the DOM.
 const displayErrorMessage = (message) => {
@@ -22,7 +22,7 @@ const createGame = async () => {
       },
     );
     const data = await response.json();
-    const gameId = data.result.split(':')[1].trim();
+    const gameId = data.result.split(':')[1].trim().split(' ')[0].trim();
 
     // Save gameId to local storage.
     localStorage.setItem('gameId', gameId);
@@ -33,10 +33,7 @@ const createGame = async () => {
 
 // Function to load gameId from local storage on page load.
 const loadGameIdFromLocalStorage = () => {
-  const storedGameId = localStorage.getItem('gameId');
-  if (storedGameId) {
-    gameId = parseInt(storedGameId, 10); // Parse the stored value as an integer
-  }
+  gameId = localStorage.getItem('gameId');
 };
 
 // Function to update the leaderboard on the webpage.
@@ -123,6 +120,7 @@ const handleSubmit = async (event) => {
 // Function to reload the page.
 const reloadPage = () => {
   window.location.reload();
+  fetchScores();
 };
 
 // Add an event listener for the form submission.
